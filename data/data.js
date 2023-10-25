@@ -3,7 +3,7 @@ export const data = [
 
       id: 1,
       name: {
-        first: 'Will',
+        first: 'Willl',
         last: 'Smith',
       },
       total: 2795.95,
