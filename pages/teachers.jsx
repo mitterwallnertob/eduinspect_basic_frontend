@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsPersonFill, BsThreeDotsVertical } from 'react-icons/bs'
 import { data } from '../data/data.js'
+import { Timetable } from "@/components/timetable/timetable"
 
 const teachers = () => {
   return (
@@ -31,6 +32,8 @@ const teachers = () => {
                             <div className='sm:flex hidden justify-between items-center'>
                                 <p>{order.method}</p>
                                 <BsThreeDotsVertical />
+                            </div>
+                            <div>
                             </div>
                         </li>
                     ))}
