@@ -4,10 +4,10 @@ import moment from "moment";
 require("dotenv").config();
 
 const untis = new WebUntis(
-  "htbla_wels",
-  "punr",
-  "1Antonia2",
-  "hypate.webuntis.com"
+    process.env.WEBUNTIS_SCHOOL, 
+    process.env.WEBUNTIS_USERNAME, 
+    process.env.WEBUNTIS_PASSWORD, 
+    'hypate.webuntis.com'
 );
 
 await untis.login();
