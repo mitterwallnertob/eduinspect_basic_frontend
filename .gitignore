@@ -36,3 +36,6 @@ next-env.d.ts
 
 # webstorm
 .idea
+
+# environment variables
+.env*
