@@ -45,8 +45,8 @@ export default function Home() {
       </Head>
       <main className='bg-gray-100 min-h-screen'>
         <Header />
-        <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
-            <Timetable />
+        <div className='p-4'>
+            <Timetable/>
         </div>
       </main>
     </>
